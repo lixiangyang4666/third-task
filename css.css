@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+/*重置*/
+body,div,ul,li,img,p{margin:0; padding:0; border:0;}
+body{font-size:16px; font-family:Verdana, Geneva, sans-serif;}
+/*container*/
+.container{background:#eee; padding:20px; padding-left:240px; padding-right:160px;background:#eee; overflow:hidden; min-width:600px;}
+
+/*content*/
+.content{width:100%; float:left;background:#eee;}
+.content2{ background:#fff;border:1px solid #000; }
+.content2 p{padding:20px;}
+
+/*left*/
+.left{width:240px; background:#eee;float:left; margin-left:-100%; position:relative; right:240px;}
+.left2{border:1px solid #000; margin-right:20px; margin-left:20px;padding:20px;background:#fff; overflow:hidden;}
+.left img{width:78px;  height:78px; display:block;border:1px solid #000; float:left;}
+.left p{ width:60px; text-align:center; float:right;}
+
+/*right*/
+.right{width:160px; background:#eee;float:left;  margin-right:-162px;}
+.right2{border:1px solid #000;background:#fff; padding:20px; margin-left:20px; margin-right:20px;}
+.right ul{ height:380px; width:80px; overflow:hidden;}
+.right li{list-style:none; border-bottom:20px solid #fff;width:80px;height:80px;}
+.right img{ display:block;width:78px;height:78px;border:1px solid #000;}
+
+/*让父级的最高子元素为父级的高度*/
+.content,.left,.right{padding-bottom:2000px; margin-bottom:-2000px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
